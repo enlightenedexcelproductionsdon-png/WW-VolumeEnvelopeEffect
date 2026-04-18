@@ -374,7 +374,7 @@
 
         timelineWarp.addEventListener('click', (e) => toggleKF(e, warpKeyframes, 'warp'));
         timelineVol.addEventListener('click', (e) => toggleKF(e, volKeyframes, 'vol'));
-			
+
         function updateTimelineUI() {
             [timelineWarp, timelineVol].forEach(t => t.querySelectorAll('.keyframe').forEach(d => d.remove()));
             warpKeyframes.forEach(kf => {
